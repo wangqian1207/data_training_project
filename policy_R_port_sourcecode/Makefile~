@@ -1,0 +1,8 @@
+all: policy.cpp policy_R.cpp
+	g++ -std=c++11 -o3 -g policy.cpp policy_R.cpp -o policy_R
+
+clean:
+	$(RM) policy_R learn_result_*.txt
+
+clean_data:
+	$(RM) learn_result_*.txt

@@ -1,0 +1,9 @@
+
+from.matrix.to.txt<-function(fname1,fname2,mat1,mat2){
+  write.table(mat1, file=paste(fname1,'txt',sep = '.'), row.names = FALSE,col.names = FALSE)
+  write.table(mat2, file=paste(fname2,'txt',sep = '.'), row.names = FALSE,col.names = FALSE)
+}
+# test
+m=matrix(c(1,2,3,4),ncol = 2,byrow = TRUE)
+s="test"
+from.matrix.to.txt(s,"s",m,m)

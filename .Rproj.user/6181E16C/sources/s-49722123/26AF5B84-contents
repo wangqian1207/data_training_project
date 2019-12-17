@@ -1,0 +1,18 @@
+from.matrix.to.txt<-function(fname1,fname2,mat1,mat2){
+  write.table(mat1, file=paste(fname1,'txt',sep = '.'), row.names = FALSE,col.names = FALSE)
+  write.table(mat2, file=paste(fname2,'txt',sep = '.'), row.names = FALSE,col.names = FALSE)
+}
+
+feature = matrix(c(1,2,3,4),ncol = 2,byrow = TRUE)
+reward=matrix(c(1,2,3,4),ncol = 2,byrow = TRUE)
+n = 100
+p = 10
+k = 3
+l = 3
+f = "test_data_feature"
+r = "test_data_reward"
+# from.matrix.to.txt(f,r,feature,reward)
+fname = paste("policy_class_new.exe",as.character(n),as.character(p),as.character(k),as.character(l),paste(f,'txt',sep = '.'),paste(r,'txt',sep = '.'))
+sum_reward = system(fname)
+# calculate the reward and import the tree
+# display

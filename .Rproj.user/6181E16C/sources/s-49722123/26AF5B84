@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1531939523703.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "367182191",
+    "id" : "26AF5B84",
+    "lastKnownWriteTime" : 1531959633,
+    "last_content_update" : 1531959633934,
+    "path" : "~/hello/policy_1.r",
+    "project_path" : "policy_1.r",
+    "properties" : {
+        "cursorPosition" : "18,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
